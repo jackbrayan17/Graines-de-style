@@ -1,11 +1,10 @@
 :root {
-    --black: #000000;
-    --red: #FF0000;
-    --white: #FFFFFF;
-    --yellow: #FFFF00;
-    --gray-dark: #1A1A1A;
-    --light-gray: #333333;
-    --font-main: 'Space Mono', monospace;
+    --black: #1C2526;
+    --gold: #D4A017;
+    --white: #F5F5F5;
+    --gray-dark: #2E3A3C;
+    --light-gray: #4A5B5E;
+    --font-main: 'Playfair Display', serif;
     --padding-unit: 1rem;
     --font-size-base: 16px;
     --transition: all 0.3s ease;
@@ -26,7 +25,7 @@ body {
     display: flex;
     flex-direction: column;
     font-size: var(--font-size-base);
-    line-height: 1.5;
+    line-height: 1.6;
     -webkit-tap-highlight-color: transparent;
 }
 
@@ -38,14 +37,14 @@ body {
     background: var(--gray-dark);
 }
 ::-webkit-scrollbar-thumb {
-    background: var(--red);
+    background: var(--gold);
     border-radius: 4px;
 }
 ::-webkit-scrollbar-thumb:hover {
-    background: #CC0000;
+    background: #C48F15;
 }
 * {
-    scrollbar-color: var(--red) var(--gray-dark);
+    scrollbar-color: var(--gold) var(--gray-dark);
     scrollbar-width: thin;
 }
 
@@ -59,7 +58,7 @@ header {
     top: 0;
     z-index: 1000;
     width: 100%;
-    border-bottom: 2px solid var(--red);
+    border-bottom: 2px solid var(--gold);
 }
 header img.logo {
     width: clamp(80px, 15vw, 100px);
@@ -72,7 +71,7 @@ header img.logo {
     position: relative;
     cursor: pointer;
     font-size: clamp(1.2rem, 5vw, 1.4rem);
-    color: var(--yellow);
+    color: var(--gold);
     padding: 0.5rem;
     order: 1;
 }
@@ -80,8 +79,8 @@ header img.logo {
     position: absolute;
     top: -6px;
     right: -8px;
-    background-color: var(--red);
-    color: var(--white);
+    background-color: var(--gold);
+    color: var(--black);
     border-radius: 50%;
     padding: 2px 6px;
     font-size: clamp(0.6rem, 2vw, 0.75rem);
@@ -89,7 +88,7 @@ header img.logo {
 }
 .menu-icon {
     font-size: clamp(1.2rem, 5vw, 1.5rem);
-    color: var(--yellow);
+    color: var(--gold);
     cursor: pointer;
     padding: 0.5rem;
     order: 3;
@@ -98,36 +97,35 @@ header img.logo {
 
 /* Slider container */
 .slider-container {
-  position: relative;
-  width: 100%;
-  max-width: 800px; /* adjust as needed */
-  margin: auto;
-  overflow: hidden;
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    overflow: hidden;
 }
 
 /* Slider track */
 .slider {
-  display: flex;
-  transition: transform 0.5s ease-in-out;
+    display: flex;
+    transition: transform 0.5s ease-in-out;
 }
 
 /* Each slide image */
 .slider img {
-  width: 100%;
-  flex-shrink: 0;
-  object-fit: contain;   /* ✅ Prevent cropping */
-  object-position: center;
-  max-height: 400px;     /* adjust depending on desired height */
-  background-color: #000; /* optional: adds background around smaller images */
+    width: 100%;
+    flex-shrink: 0;
+    object-fit: contain;
+    object-position: center;
+    max-height: 400px;
+    background-color: #000;
 }
-
 
 .slider-arrow {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     background-color: rgba(0, 0, 0, 0.7);
-    color: var(--yellow);
+    color: var(--gold);
     border: none;
     padding: 1rem;
     cursor: pointer;
@@ -143,7 +141,7 @@ header img.logo {
     right: 10px;
 }
 .slider-arrow:hover {
-    background-color: var(--red);
+    background-color: var(--gold);
 }
 
 .search-container {
@@ -155,18 +153,18 @@ header img.logo {
 .search-container input {
     width: 100%;
     padding: 0.75rem 2.5rem 0.75rem 1rem;
-    border: 2px solid var(--red);
+    border: 2px solid var(--gold);
     border-radius: 25px;
     background-color: var(--gray-dark);
     color: var(--white);
     font-size: clamp(0.9rem, 3vw, 1rem);
     transition: var(--transition);
-    box-shadow: 0 0 10px rgba(255, 0, 0, 0.2);
+    box-shadow: 0 0 10px rgba(212, 160, 23, 0.2);
 }
 .search-container input:focus {
     outline: none;
-    border-color: var(--yellow);
-    box-shadow: 0 0 15px rgba(255, 255, 0, 0.4);
+    border-color: var(--white);
+    box-shadow: 0 0 15px rgba(245, 245, 245, 0.4);
     transform: scale(1.02);
 }
 .search-container::before {
@@ -177,7 +175,7 @@ header img.logo {
     right: 1rem;
     top: 50%;
     transform: translateY(-50%);
-    color: var(--yellow);
+    color: var(--gold);
     font-size: clamp(0.9rem, 3vw, 1rem);
 }
 
@@ -233,13 +231,13 @@ header img.logo {
     color: var(--white);
 }
 .product p.price {
-    color: var(--yellow);
+    color: var(--gold);
     font-size: clamp(0.8rem, 3vw, 0.9rem);
 }
 .product button {
     margin-top: 0.3rem;
-    background-color: var(--red);
-    color: var(--white);
+    background-color: var(--gold);
+    color: var(--black);
     border: none;
     border-radius: 4px;
     padding: 0.4rem 0.8rem;
@@ -250,7 +248,7 @@ header img.logo {
     transition: background-color 0.3s;
 }
 .product button:hover {
-    background-color: #CC0000;
+    background-color: #C48F15;
 }
 
 footer {
@@ -270,7 +268,7 @@ footer::before {
     left: 0;
     width: 100%;
     height: 5px;
-    background: var(--red);
+    background: var(--gold);
     opacity: 0.5;
 }
 .footer-content {
@@ -286,7 +284,7 @@ footer::before {
     justify-content: center;
 }
 .footer-links a {
-    color: var(--yellow);
+    color: var(--gold);
     font-size: clamp(1.2rem, 4vw, 1.5rem);
     transition: var(--transition);
     position: relative;
@@ -303,7 +301,7 @@ footer::before {
     left: 50%;
     width: 0;
     height: 2px;
-    background: var(--red);
+    background: var(--gold);
     transition: var(--transition);
     transform: translateX(-50%);
 }
@@ -349,7 +347,7 @@ footer::before {
     top: 0.5rem;
     right: 0.75rem;
     cursor: pointer;
-    color: var(--yellow);
+    color: var(--gold);
     font-size: clamp(1.2rem, 5vw, 1.5rem);
     padding: 0.25rem;
 }
@@ -381,7 +379,7 @@ footer::before {
     padding: 0.5rem 0;
     overflow-x: auto;
     scrollbar-width: thin;
-    scrollbar-color: var(--red) var(--light-gray);
+    scrollbar-color: var(--gold) var(--light-gray);
 }
 
 .thumbnail {
@@ -396,27 +394,27 @@ footer::before {
 }
 
 .thumbnail:hover {
-    border-color: var(--yellow);
+    border-color: var(--white);
     transform: scale(1.05);
 }
 
 .thumbnail.active {
-    border-color: var(--red);
-    box-shadow: 0 0 8px rgba(255, 0, 0, 0.4);
+    border-color: var(--gold);
+    box-shadow: 0 0 8px rgba(212, 160, 23, 0.4);
 }
 
 .thumbnail-container::-webkit-scrollbar {
     height: 6px;
 }
 .thumbnail-container::-webkit-scrollbar-thumb {
-    background: var(--red);
+    background: var(--gold);
     border-radius: 3px;
 }
 
 .modal-content select {
     background-color: var(--gray-dark);
     color: var(--white);
-    border: 2px solid var(--red);
+    border: 2px solid var(--gold);
     border-radius: 4px;
     padding: 0.5rem;
     width: 100%;
@@ -424,8 +422,8 @@ footer::before {
 }
 
 .modal-content button, .cart-content button {
-    background-color: var(--red);
-    color: var(--white);
+    background-color: var(--gold);
+    color: var(--black);
     border: none;
     border-radius: 4px;
     padding: 0.75rem 1rem;
@@ -437,7 +435,7 @@ footer::before {
     margin-top: 0.5rem;
 }
 .modal-content button:hover, .cart-content button:hover {
-    background-color: #CC0000;
+    background-color: #C48F15;
 }
 
 .btn-whatsapp {
@@ -456,10 +454,10 @@ footer::before {
     margin: 0.75rem 0;
 }
 .quantity-control button {
-    background-color: var(--red);
+    background-color: var(--gold);
     border: none;
     padding: 0.5rem;
-    color: var(--white);
+    color: var(--black);
     font-weight: bold;
     cursor: pointer;
     border-radius: 4px;
@@ -486,7 +484,7 @@ footer::before {
 }
 #category-nav button {
     background-color: var(--gray-dark);
-    color: var(--yellow);
+    color: var(--gold);
     border: none;
     padding: 0.75rem;
     font-size: clamp(0.9rem, 3.5vw, 1rem);
@@ -502,11 +500,11 @@ footer::before {
 .loading {
     text-align: center;
     padding: var(--padding-unit);
-    color: var(--yellow);
+    color: var(--gold);
     font-size: clamp(0.9rem, 3.5vw, 1rem);
 }
 .error-message {
-    color: var(--red);
+    color: var(--gold);
     text-align: center;
     padding: var(--padding-unit);
     font-size: clamp(0.9rem, 3.5vw, 1rem);
