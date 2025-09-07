@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlessBlood - Mode Urbaine</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+     <link rel="icon" href="img/logo-removebg-preview.png" type="image/png" style="border-radius: 50%;">
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <header>
+        <i class="fas fa-shopping-cart cart-icon" id="cart-icon">
+            <span class="cart-count" id="cart-count">0</span>
+        </i>
+        <img src="img/logo.jpg" alt="On Black Logo" class="logo">
+        <i class="fas fa-bars menu-icon" id="menu-icon"></i>
+    </header>
+
+    <div class="slider-container">
+        <div class="slider" id="product-slider">
+            <!-- Slider images will be populated by JavaScript -->
+        </div>
+        <button class="slider-arrow left-arrow" id="slider-left"><i class="fas fa-chevron-left"></i></button>
+        <button class="slider-arrow right-arrow" id="slider-right"><i class="fas fa-chevron-right"></i></button>
+    </div>
+
+    <div class="search-container">
+        <input type="text" id="search-input" placeholder="Rechercher un produit...">
+    </div>
+
+    <nav id="category-nav">
+        <button class="category-btn" data-type="All">Tous</button>
+       
+        <button class="category-btn" data-type="Jackets">Jackets</button>
+    </nav>
+
+    <div class="product-grid" id="product-grid">
+        <div class="loading">Chargement des produits...</div>
+    </div>
+
+    <div class="modal" id="product-modal">
+        <div class="modal-content">
+            <h3>Produits Sélectionnés</h3>
+            <button id="btn-add-cart" class="btn-cart"><i class="fas fa-shopping-cart"></i> Ajouter au panier</button>
+            <button id="btn-wa" class="btn-whatsapp"><i class="fab fa-whatsapp"></i> Commander via WhatsApp</button>
+        </div>
+    </div>
+
+    <div class="cart-modal" id="cart-modal">
+        <div class="cart-content">
+            <i class="fas fa-times close-btn" id="close-cart"></i>
+            <h3>Votre Panier</h3>
+            <div id="cart-items"></div>
+            <p id="cart-total">Total : 0 FCFA</p>
+            <button id="whatsapp-cart-order" class="btn-whatsapp"><i class="fab fa-whatsapp"></i> Valider la commande via WhatsApp</button>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.tiktok.com/" target="_blank"><i class="fab fa-tiktok"></i></a>
+                <a href="https://wa.me/" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            </div>
+            <div class="footer-info">
+                <p>&copy; 2025 BlessBlood. Tous droits réservés.</p>
+                <p>Contactez-nous : <a href="mailto:contact@blessblood.com">contact@onblack.com</a></p>
+                <p>Mode de vie élégant, directement de Yaoundé</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+

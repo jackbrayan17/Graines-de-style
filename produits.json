@@ -1,0 +1,142 @@
+[
+ 
+  {
+    "id": "2",
+    "name": "Blessblood Bomber Jacket - Black Sparkle",
+    "price": 10000,
+    "description": "A stylish black bomber jacket from the brand Blessblood. The jacket features a sparkly finish, giving it a unique and modern look. It has a full-zip closure, ribbed cuffs and hem, and a distinctive collar design. Two silver grommets are located on the chest. The back of the jacket features a prominent white Blessblood logo.",
+    "stock": 50,
+    "color": "Black",
+    "sizes": [
+      "XL",
+      "XXL",
+      "XXXL"
+    ],
+    "type": "Jackets",
+    "images": [
+      "img/j1-1.jpg",
+      "img/j1-4.jpg",
+      "img/j1-3.jpg",
+      "img/j1-2.jpg"
+    ],
+    "attributes": "Sparkly black finish, full-zip, ribbed cuffs and hem, distinctive collar, two silver grommets on the chest, white Blessblood logo on the back. A version with a hood is also available."
+  },
+  {
+    "id": "3",
+    "name": "Blessblood Bomber Jacket - Red Crocodile",
+    "price": 10000,
+    "description": "A bold and eye-catching red bomber jacket from the Blessblood brand. This jacket features a striking crocodile-skin texture and a glossy finish. It has a full-zip closure, ribbed cuffs and hem, and two silver grommets on the chest. The back of the jacket is adorned with a prominent white Blessblood logo. A version with a hood is also available.",
+    "stock": 50,
+    "color": "Red",
+    "sizes": [
+      "XL",
+      "XXL",
+      "XXXL"
+    ],
+    "type": "Jackets",
+    "images": [
+      "img/j2-3.jpg",
+      "img/j2-2.jpg",
+      "img/j2-1.jpg",
+      "img/j2-4.jpg"
+    ],
+    "attributes": "Red glossy finish with crocodile-skin texture, full-zip, ribbed cuffs and hem, two silver grommets on the chest, white Blessblood logo on the back. A version with a hood is also available."
+  },
+  {
+    "id": "4",
+    "name": "Blessblood Racing Jacket",
+    "price": 10000,
+    "description": "A sleek racing-style jacket from Blessblood, available in both black and green. This jacket features a full-zip front, a large white Blessblood logo on the chest, and two bold white stripes running down each sleeve. The sleeves also have zippered cuffs, adding to the racing aesthetic.",
+    "stock": 50,
+    "color": "Black/Green",
+    "sizes": [
+      "XL",
+      "XXL",
+      "XXXL"
+    ],
+    "type": "Jackets",
+    "images": [
+      "img/j3-2.jpg",
+      "img/j3-1.jpg"
+    ],
+    "attributes": "Racing-style jacket, full-zip, large white Blessblood logo on the chest, two white stripes on each sleeve, zippered cuffs."
+  },
+  {
+    "id": "5",
+    "name": "Blessblood Velour Hoodie - Black",
+    "price": 10000,
+    "description": "A comfortable and stylish velour hoodie from the brand Blessblood. This full-zip hoodie features a large white Blessblood logo on the chest and a more subtle, embossed black logo on the back. It has a full-zip front, a drawstring hood, and a plush, soft feel.",
+    "stock": 50,
+    "color": "Black",
+    "sizes": [
+      "XL",
+      "XXL",
+      "XXXL"
+    ],
+    "type": "Jackets",
+    "images": [
+      "img/j4-1.jpg",
+      "img/j4-2.jpg",
+      "img/j4-6.jpg",
+      "img/j4-7.jpg"
+    ],
+    "attributes": "Black velour material, full-zip closure, drawstring hood, ribbed cuffs and hem, large white Blessblood logo on the front, embossed black Blessblood logo on the back."
+  },
+  {
+    "id": "6",
+    "name": "Blessblood Cropped Hooded Jacket - Black",
+    "price": 10000,
+    "description": "A unique cropped jacket with a hood, featuring a black texture and white grommets. The hood and shoulders are accented with white studs, and the sleeves have zippers, giving it a modern, edgy look. The front has 'BLOOD' and 'GOD' text in a stylized font.",
+    "stock": 50,
+    "color": "Black",
+    "sizes": [
+      "XL",
+      "XXL",
+      "XXXL"
+    ],
+    "type": "Jackets",
+    "images": [
+      "img/j4-3.jpg",
+      "img/j4-5.jpg"
+    ],
+    "attributes": "Black textured material, full-zip, cropped fit, studded hood and shoulders, zippered sleeves, 'BLOOD GOD' text on the chest, available with yellow or black text and stripes."
+  },
+  {
+    "id": "7",
+    "name": "Edifice Puffy Sleeve Jacket - Black",
+    "price": 10000,
+    "description": "A fashion-forward black jacket with distinctive puffy, cinched sleeves and a cropped fit. The back of the jacket features the word 'EDIFICE' in a large, white print. This jacket has a full-zip closure and a unique, sleek design.",
+    "stock": 50,
+    "color": "Black",
+    "sizes": [
+      "XL",
+      "XXL",
+      "XXXL"
+    ],
+    "type": "Jackets",
+    "images": [
+      "img/j3-5.jpg",
+      "img/j3-4.jpg"
+    ],
+    "attributes": "Black material, cropped length, puffy cinched sleeves, full-zip closure, 'EDIFICE' logo on the back. A version in a faux-leather material with a hood is also available."
+  },
+  {
+    "id": "8",
+    "name": "Edifice Racing Jacket - Black",
+    "price": 10000,
+    "description": "A sleek, black glossy jacket with a racing-inspired design. It features bold white shoulder accents and a single white stripe across the chest. The jacket has a full-zip front and two silver grommets on the chest. The collar features a Blessblood tag.",
+    "stock": 50,
+    "color": "Black",
+    "sizes": [
+      "XL",
+      "XXL",
+      "XXXL"
+    ],
+    "type": "Jackets",
+    "images": [
+      "img/j3-6.jpg",
+      "img/j3-7.jpg"
+    ],
+    "attributes": "Black glossy material, racing-style design, full-zip, white shoulder accents, single white chest stripe, silver grommets on chest, Blessblood tag on the collar."
+  }
+]
